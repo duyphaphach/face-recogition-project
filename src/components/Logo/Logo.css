@@ -1,0 +1,10 @@
+.Tilt {
+  background: rgba(207, 76, 98, 1);
+  background: -moz-linear-gradient(left, rgba(207, 76, 98, 1) 15%, rgba(173, 66, 148, 1) 41%, rgba(163, 63, 163, 1) 49%, rgba(157, 93, 177, 1) 55%, rgba(132, 223, 235, 1) 81%);
+  background: -webkit-gradient(left top, right top, color-stop(15%, rgba(207, 76, 98, 1)), color-stop(41%, rgba(173, 66, 148, 1)), color-stop(49%, rgba(163, 63, 163, 1)), color-stop(55%, rgba(157, 93, 177, 1)), color-stop(81%, rgba(132, 223, 235, 1)));
+  background: -webkit-linear-gradient(left, rgba(207, 76, 98, 1) 15%, rgba(173, 66, 148, 1) 41%, rgba(163, 63, 163, 1) 49%, rgba(157, 93, 177, 1) 55%, rgba(132, 223, 235, 1) 81%);
+  background: -o-linear-gradient(left, rgba(207, 76, 98, 1) 15%, rgba(173, 66, 148, 1) 41%, rgba(163, 63, 163, 1) 49%, rgba(157, 93, 177, 1) 55%, rgba(132, 223, 235, 1) 81%);
+  background: -ms-linear-gradient(left, rgba(207, 76, 98, 1) 15%, rgba(173, 66, 148, 1) 41%, rgba(163, 63, 163, 1) 49%, rgba(157, 93, 177, 1) 55%, rgba(132, 223, 235, 1) 81%);
+  background: linear-gradient(to right, rgba(207, 76, 98, 1) 15%, rgba(173, 66, 148, 1) 41%, rgba(163, 63, 163, 1) 49%, rgba(157, 93, 177, 1) 55%, rgba(132, 223, 235, 1) 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4c62', endColorstr='#84dfeb', GradientType=1);
+}
