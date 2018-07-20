@@ -112,10 +112,6 @@ class App extends Component {
     this.setState({box: box});
   }
 
-  onInputChange = (event) => {
-    this.setState({input: event.target.value});
-  }
-
   onDetect = () => {
     this.setState({
       box: {},
@@ -160,8 +156,7 @@ class App extends Component {
               <FaceRecognition box={this.state.box} imageSrc={this.state.imageSrc} />
             </div> : (
               this.state.route === 'signin' ?
-                <SignIn onRouteChange={this.onRouteChange} signIn={this.signIn} onUsernameChange={this.onUsernameChange}
-                  onPasswordChange = {this.onPasswordChange} showWarning={this.showWarning}/> :
+                <SignIn onRouteChange={this.onRouteChange} /> :
                   <Register onRouteChange={this.onRouteChange }/>
             )
         }
