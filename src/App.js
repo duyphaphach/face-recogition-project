@@ -87,8 +87,6 @@ class App extends Component {
       imageSrc: '',
       box: {},
       route: 'signin',
-      username: '',
-      password: '',
       warning: false,
     }
   }
@@ -152,42 +150,7 @@ class App extends Component {
   }
 
   signIn = () =>{
-    const users = [
-      {
-        username: "Duy@gmail.com",
-        password: "12121212"
-      },
-      {
-        username: "Duong@gmail.com",
-        password: "123456"
-      },
-      {
-        username: "Huy@gmail.com",
-        password: "8888"
-      },
-      {
-        username: "Duc@gmail.com",
-        password: "teampass"
-      },
-      {
-        username: "Tan@gmail.com",
-        password: "123456"
-      },
-      {
-        username: "Hai@gmail.com",
-        password: "hoahongdai"
-      }
-    ]
-    users.forEach((user) =>  {
-      if(user.username === this.state.username &&  user.password === this.state.password){
-        this.setState({
-          route: 'home'
-        })
-      }
-    })
-    this.setState({
-      warning: true
-    })
+
   }
 
   showWarning = () => {
