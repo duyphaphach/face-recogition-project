@@ -135,24 +135,6 @@ class App extends Component {
     return this.state.username;
   }
 
-  onUsernameChange = (event) => {
-    console.log(this.state.username);
-    this.setState({
-      username: event.target.value
-    })
-  }
-
-  onPasswordChange = (event) => {
-    console.log(this.state.password);
-    this.setState({
-      password: event.target.value
-    })
-  }
-
-  signIn = () =>{
-
-  }
-
   showWarning = () => {
     console.log("sdsdsd")
     if( this.state.warning ){
